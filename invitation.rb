@@ -1,15 +1,41 @@
-require 'family'
-require 'friends'
 
-heather = Bride.new
-dom     = Groom.new
+                     _.!._
+                    /O*@*O\
+                   <\@(_)@/>
+          ,;,   .--;`     `;--.   ,
+          O@O_ /   |d     b|   \ _hnn
+          | `/ \   |       |   / \` |
+          &&&&  :##;\     /;##;  &&&&
+          |  \ / `##/|   |##'  \ /  |
+          \   %%%%`</|   |#'`%%%%   /
+           '._|_ \   |   |'  / _|_.'
+             _/  /   \   \   \  \
+            / (\(     '.  '-._&&&&
+           (  ()##,    o'--.._`\-)
+            '-():`##########'()()()
+             /:::::/()`Y`()\:::::\
+        jgs  \::::( () | () )::::/
+              `"""`\().'.()/'"""`
+
+
+
+
+
+#include "family.h"
+#include "friends.h"
+#include "wellwishers.h"
+
+
+
+Ruchi Dhage   = Bride.new
+Nikhil Hatwar = Groom.new
 
 class Wedding < ActiveEngagement::Base
 
   def invite
     puts <<-INVITE
-        Mr & Mrs S Burke invite you to
-        the Wedding of their daughter
+        Ruchi and Nikhil invite you to
+        the their Wedding 
 
             Heather Maria Burke
                   to
@@ -19,14 +45,13 @@ class Wedding < ActiveEngagement::Base
         At the xxxx xxxx, Leeds
 
 ----------------------------------------------------------
-                               _      Heather and Dom
-         ___            {@}  _|=|_
-        /___\          /(")\  (")
-     .---'-'---.      /((~))\/<x>\        _   .-.
-    /___________\     ~~/@\~~\|_|/       <v> ((_))
-     | A /^\ A |       /   \  |||       ((_)) '-'
-     |   |"|   |      /~@~@~\ |||        '-'
- ____|___|_|___|_____/_______\|||___October 25th 2013___
+                                
+         ___            
+        /___\          
+     .---'-'---.     
+    /___________\          
+     |   |"|   |     
+ ____|___|_|___|_____
 
         Ceremony Commences at 12:00
           Followed by a
